@@ -73,7 +73,7 @@ for k in categories:
                 filevar=1
 
 web=''.join(web)
-file=getadd("website","single",".html")
+file=getadd("website",k,".html")
 with open(file,"w") as f:
     f.write(web)
 

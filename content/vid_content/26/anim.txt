@@ -1,0 +1,17 @@
+Cough sound can determine severity of COVID
+[Image]
+COVID has a lasting impact on human health. Scientists and health experts have been examining its effects, shedding light on long COVID. 
+[Image]
+Currently, two variants of COVID, BA.2.86 and EG.5, both sub-variants of Omicron, are in circulation. These variants are known for their higher transmission rates compared to their predecessors.
+[Image]
+While most people with COVID-19 experience mild symptoms and recover within weeks, the global pandemic caused by the SARS-CoV-2 virus remains a significant health threat. Some individuals may develop more severe illness and pneumonia, leading to a less favorable prognosis.
+[Image]
+However, assessing patients' risk and prognosis relies heavily on costly and less accessible imaging techniques like radiography, ultrasound, or computed tomography (CT).
+[Image]
+Hence, there is a need for a simpler and more readily available prognostic tool to help healthcare providers identify patients at risk of severe disease, even in home or primary care settings.
+[Image]
+Now, a research team led by IBEC and Hospital del Mar, in collaboration with the Universitat Polit\u00e8cnica de Catalunya (UPC), CIBER-BBN, and CIBERES, conducted a study analyzing cough sounds in the early stages of COVID-19. This method offers a potential predictive, simple, and accessible way to assess the risk of severe pneumonia.
+[Image]
+The study involved recording voluntary coughing sounds from 70 SARS-CoV-2 patients within the first 24 hours of their hospital admission, using smartphones. IBEC performed acoustic analysis, revealing significant differences in cough sounds based on the severity of respiratory conditions, as confirmed by imaging tests and the need for supplemental oxygen.
+[Image]
+These results suggest that this analysis can categorize COVID-19 patients as mild, moderate, or severe and can monitor those with persistent COVID-19. The data collection took place between April 2020 and May 2021 at Hospital del Mar, and the findings are published in the European Respiratory Journal Open Research.

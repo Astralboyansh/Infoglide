@@ -55,13 +55,14 @@ def final_audio(text_doc,path=""):
     text = text_doc.split(".")
     concatenated_audio1 = AudioSegment.empty()
     concatenated_audio2 = AudioSegment.empty()
-    beep_segment = AudioSegment.from_mp3("beep.mp3")
+    beep_segment = AudioSegment.from_mp3("beep.wav")
     for i in text:
         if i=="@123":
+
             concatenated_audio1+=beep_segment
             concatenated_audio2+=beep_segment-100
         if i and i.strip() and i!="@123": 
-            translated_text = Translate_to_func(i, 'hi')
+            translated_text = Translate_to_func(i, 'en')
             #print(translated_text)
             audio_segment = fetch_audio(translated_text)
             if audio_segment:

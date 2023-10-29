@@ -13,7 +13,8 @@ with open(str(file)+"1.txt",'r') as f:
     images=text[-1]
     text=text[:-3]
     text='\n'.join(text)
-    #tts.final_audio(text)
+    tts.final_audio(text)
+    print("Audio Generated!")
 images=images.split()
 for i in images:
     image.get_image(i,"images/"+i+".png")

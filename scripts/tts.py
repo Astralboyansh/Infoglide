@@ -19,7 +19,7 @@ def Translate_to_func(text, lang='hi'):
     return translated.text  # Return the translated text
 
 def fetch_audio(text, option="MALE"):
-    api_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNDA4MjFkMjgtZWUxYS00ZWJhLTlhYTktYmIyM2Q4ZmNmYzIzIiwidHlwZSI6ImFwaV90b2tlbiJ9.bL0GCOJbip4CHQcbZV8YrUqSLgt3DKHMFVjDkaKNt-U"  # Replace with your actual API key
+    api_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNTNhMDdmMTUtZGY2OC00MGY1LThlOTctMzQwOWZlNGQ3MGIzIiwidHlwZSI6ImFwaV90b2tlbiJ9.Agsx4L1XtyLX-xKTEUPHEoN0kBqtuetLeoyLU8xoYvs"  # Replace with your actual API key
     headers = {"Authorization": f"Bearer {api_key}"}
     url = "https://api.edenai.run/v2/audio/text_to_speech"
     payload = {
@@ -62,8 +62,8 @@ def final_audio(text_doc,path=""):
             concatenated_audio1+=beep_segment
             concatenated_audio2+=beep_segment-100
         if i and i.strip() and i!="@123": 
+            print(i)
             translated_text = Translate_to_func(i, 'en')
-            #print(translated_text)
             audio_segment = fetch_audio(translated_text)
             if audio_segment:
                 concatenated_audio1+= audio_segment-100
